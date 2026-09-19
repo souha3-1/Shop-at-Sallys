@@ -6,11 +6,11 @@ import { collections, money } from '@/data/products';
 
 export const artworkVars = (product: Product) => {
   const palette: Record<string, [string,string,string]> = {
-    'starry-night': ['#1F3A5F','#F2C84B','#3F78A8'],
-    sunflowers: ['#D99A2B','#F2C84B','#6F7F3F'],
-    irises: ['#28558C','#A6AE72','#3F78A8'],
-    wheatfield: ['#6F7F3F','#F2C84B','#D99A2B'],
-    'almond-blossoms': ['#3F78A8','#E8D8B8','#A6AE72'],
+    'starry-night': ['#243B5A','#F3C84B','#3F6691'],
+    sunflowers: ['#D69A32','#F3C84B','#899A68'],
+    irises: ['#3F6691','#B9A4D6','#836BA8'],
+    wheatfield: ['#899A68','#F3C84B','#D69A32'],
+    'almond-blossoms': ['#3F6691','#E6D4B8','#B9A4D6'],
   };
   const [bg, blob, accent] = palette[product.collection];
   return { '--art-bg': `linear-gradient(145deg, ${bg}, ${accent})`, '--art-blob': blob, '--art-accent': accent } as CSSProperties;
