@@ -1,0 +1,112 @@
+export type CollectionSlug =
+  | 'starry-night'
+  | 'sunflowers'
+  | 'irises'
+  | 'wheatfield'
+  | 'almond-blossoms';
+
+export type Category =
+  | 'Mugs'
+  | 'Posters'
+  | 'Notebooks'
+  | 'Paper goods'
+  | 'Totes'
+  | 'Puzzles'
+  | 'Accessories';
+
+export type Product = {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  category: Category;
+  collection: CollectionSlug;
+  image: string;
+  featured?: boolean;
+  isNew?: boolean;
+  bestSeller?: boolean;
+  details: string;
+};
+
+export const collections: Record<CollectionSlug, {
+  name: string;
+  short: string;
+  description: string;
+  background: string;
+  number: string;
+}> = {
+  'starry-night': {
+    name: 'Starry Night',
+    short: 'The blue hour',
+    description: 'Cobalt skies, tiny galaxies, and the little objects that make an ordinary desk feel like midnight in Saint-Rémy.',
+    background: 'linear-gradient(135deg, #1F3A5F 0%, #28558C 42%, #3F78A8 100%)',
+    number: '01',
+  },
+  sunflowers: {
+    name: 'Sunflowers',
+    short: 'A room in August',
+    description: 'Warm ochres and unapologetic yellow, translated into bright companions for slow mornings and generous tables.',
+    background: 'linear-gradient(135deg, #D99A2B 0%, #F2C84B 60%, #A6AE72 100%)',
+    number: '02',
+  },
+  irises: {
+    name: 'Irises',
+    short: 'Wild blue edges',
+    description: 'A little untamed, a little botanical: indigo petals, olive stems, and paper goods with room to breathe.',
+    background: 'linear-gradient(135deg, #28558C 0%, #3F78A8 48%, #6F7F3F 100%)',
+    number: '03',
+  },
+  wheatfield: {
+    name: 'Wheatfield',
+    short: 'The long way home',
+    description: 'Ochre paths and summer greens for notebooks, totes, and everything you carry toward somewhere new.',
+    background: 'linear-gradient(135deg, #6F7F3F 0%, #D99A2B 50%, #F2C84B 100%)',
+    number: '04',
+  },
+  'almond-blossoms': {
+    name: 'Almond Blossoms',
+    short: 'A gentler spring',
+    description: 'Powder-blue branches and quiet optimism, made for sending notes, marking pages, and keeping close.',
+    background: 'linear-gradient(135deg, #3F78A8 0%, #A6AE72 52%, #E8D8B8 100%)',
+    number: '05',
+  },
+};
+
+const baseDetails = 'Printed in small batches and packed in our Algiers studio. Designed to be used daily, kept for years, and gifted with good intentions.';
+
+export const products: Product[] = [
+  { id:'sn-mug', name:'Midnight Garden Mug', description:'A generous stoneware mug for late starts and blue-hour tea.', price:1850, category:'Mugs', collection:'starry-night', image:'starry-night-mug', featured:true, bestSeller:true, details:baseDetails },
+  { id:'sn-poster', name:'Night Window Art Print', description:'A small-format print that brings a cobalt sky to quiet corners.', price:2400, category:'Posters', collection:'starry-night', image:'starry-night-poster', featured:true, details:'A3 archival art print on warm, textured paper. Unframed, ready for your own wall and its next story.' },
+  { id:'sn-note', name:'Constellation Notebook', description:'A soft-cover notebook with 64 pages for ideas under construction.', price:1250, category:'Notebooks', collection:'starry-night', image:'starry-night-notebook', isNew:true, details:baseDetails },
+  { id:'sn-bookmark', name:'Blue Hour Bookmark', description:'A midnight-blue page marker with a golden paper edge.', price:480, category:'Paper goods', collection:'starry-night', image:'starry-night-bookmark', bestSeller:true, details:'Printed on 350gsm cotton paper and finished with a rounded corner. 5 × 17 cm.' },
+  { id:'sn-tote', name:'Café Terrace Tote', description:'A sturdy everyday tote for books, bread, and a sketchbook.', price:2100, category:'Totes', collection:'starry-night', image:'starry-night-tote', isNew:true, details:'Heavy natural canvas with a cobalt screen print. 38 × 42 cm with a comfortable shoulder strap.' },
+  { id:'sn-stickers', name:'Tiny Stars Sticker Sheet', description:'A sheet of miniature stars, moons, and hand-drawn windows.', price:650, category:'Paper goods', collection:'starry-night', image:'starry-night-stickers', details:baseDetails },
+  { id:'sf-mug', name:'Golden Vase Mug', description:'A sunny yellow mug for coffee, paint water, or a desk full of flowers.', price:1850, category:'Mugs', collection:'sunflowers', featured:true, bestSeller:true, image:'sunflowers-mug', details:baseDetails },
+  { id:'sf-poster', name:'Sunflower Study Print', description:'A tactile art print with the generous warmth of a late summer room.', price:2400, category:'Posters', collection:'sunflowers', featured:true, image:'sunflowers-poster', details:'A3 archival art print on warm, textured paper. Unframed, ready for your own wall and its next story.' },
+  { id:'sf-note', name:'Ochre Field Notebook', description:'A linen-textured notebook for lists, letters, and small plans.', price:1350, category:'Notebooks', collection:'sunflowers', image:'sunflowers-notebook', isNew:true, details:baseDetails },
+  { id:'sf-puzzle', name:'12 Sunflowers Mini Puzzle', description:'A 150-piece pocket puzzle for an unhurried afternoon.', price:1750, category:'Puzzles', collection:'sunflowers', image:'sunflowers-puzzle', bestSeller:true, details:'150 pieces, packed in a keepsake box. Finished puzzle measures 24 × 18 cm.' },
+  { id:'sf-postcards', name:'Postcards from August', description:'Four postcards for notes that deserve more than a message thread.', price:900, category:'Paper goods', collection:'sunflowers', image:'sunflowers-postcards', details:baseDetails },
+  { id:'sf-tote', name:'The Yellow Room Tote', description:'A bright, useful tote with a hand-brushed botanical print.', price:2200, category:'Totes', collection:'sunflowers', image:'sunflowers-tote', details:'Heavy natural canvas with a golden screen print. 38 × 42 cm with a comfortable shoulder strap.' },
+  { id:'ir-mug', name:'Indigo Irises Mug', description:'A blue-and-olive stoneware mug with a painterly floral wrap.', price:1850, category:'Mugs', collection:'irises', image:'irises-mug', bestSeller:true, details:baseDetails },
+  { id:'ir-poster', name:'Irises in the Garden Print', description:'A botanical print with wild blue edges and room to breathe.', price:2400, category:'Posters', collection:'irises', featured:true, image:'irises-poster', details:'A3 archival art print on warm, textured paper. Unframed, ready for your own wall and its next story.' },
+  { id:'ir-note', name:'Blue Stem Notebook', description:'A quiet notebook with a deep blue cover and olive spine.', price:1350, category:'Notebooks', collection:'irises', image:'irises-notebook', isNew:true, details:baseDetails },
+  { id:'ir-bookmark', name:'Garden Gate Bookmark', description:'A slim bookmark with a saturated indigo garden on one side.', price:480, category:'Paper goods', collection:'irises', image:'irises-bookmark', details:baseDetails },
+  { id:'ir-tote', name:'Wild Iris Tote', description:'A botanical canvas bag that carries the day with a little colour.', price:2200, category:'Totes', collection:'irises', image:'irises-tote', details:'Heavy natural canvas with a deep blue screen print. 38 × 42 cm with a comfortable shoulder strap.' },
+  { id:'ir-stickers', name:'Garden Notes Sticker Sheet', description:'Loose petals and stems for the margins of your everyday.', price:650, category:'Paper goods', collection:'irises', image:'irises-stickers', details:baseDetails },
+  { id:'wf-mug', name:'Wheatfield Morning Mug', description:'A warm ochre mug for a long breakfast and an open window.', price:1850, category:'Mugs', collection:'wheatfield', image:'wheatfield-mug', featured:true, details:baseDetails },
+  { id:'wf-poster', name:'Road Through Wheatfield Print', description:'A horizon-led print about taking the scenic route.', price:2400, category:'Posters', collection:'wheatfield', image:'wheatfield-poster', details:'A3 archival art print on warm, textured paper. Unframed, ready for your own wall and its next story.' },
+  { id:'wf-note', name:'Long Way Home Notebook', description:'A substantial notebook for the thoughts that take their time.', price:1350, category:'Notebooks', collection:'wheatfield', image:'wheatfield-notebook', bestSeller:true, details:baseDetails },
+  { id:'wf-puzzle', name:'Summer Road Mini Puzzle', description:'A pocket-sized landscape to piece together slowly.', price:1750, category:'Puzzles', collection:'wheatfield', image:'wheatfield-puzzle', isNew:true, details:'150 pieces, packed in a keepsake box. Finished puzzle measures 24 × 18 cm.' },
+  { id:'wf-tote', name:'Golden Path Tote', description:'A generous canvas tote printed with a loose summer landscape.', price:2200, category:'Totes', collection:'wheatfield', image:'wheatfield-tote', bestSeller:true, details:'Heavy natural canvas with an ochre screen print. 38 × 42 cm with a comfortable shoulder strap.' },
+  { id:'wf-postcards', name:'Letters from the Field', description:'A set of four landscape postcards for faraway hellos.', price:900, category:'Paper goods', collection:'wheatfield', image:'wheatfield-postcards', details:baseDetails },
+  { id:'ab-mug', name:'Blossom Branch Mug', description:'A powder-blue mug for new ideas and second cups of tea.', price:1850, category:'Mugs', collection:'almond-blossoms', image:'almond-blossoms-mug', isNew:true, details:baseDetails },
+  { id:'ab-poster', name:'Almond Branch Print', description:'A quiet blue branch print for a softer corner of your home.', price:2400, category:'Posters', collection:'almond-blossoms', featured:true, image:'almond-blossoms-poster', details:'A3 archival art print on warm, textured paper. Unframed, ready for your own wall and its next story.' },
+  { id:'ab-note', name:'Spring Branch Notebook', description:'A pale linen notebook with a small blue blossom on the cover.', price:1350, category:'Notebooks', collection:'almond-blossoms', image:'almond-blossoms-notebook', bestSeller:true, details:baseDetails },
+  { id:'ab-bookmark', name:'Blossom Page Marker', description:'A little branch to find your place and keep it.', price:480, category:'Paper goods', collection:'almond-blossoms', image:'almond-blossoms-bookmark', details:baseDetails },
+  { id:'ab-postcards', name:'A Note in Spring', description:'Four airy postcards with space for a proper letter.', price:900, category:'Paper goods', collection:'almond-blossoms', image:'almond-blossoms-postcards', isNew:true, details:baseDetails },
+  { id:'ab-stickers', name:'Blossom Margins Sticker Sheet', description:'Small blossoms and blue branches for a gentler kind of annotation.', price:650, category:'Paper goods', collection:'almond-blossoms', image:'almond-blossoms-stickers', details:baseDetails },
+];
+
+export const categories: Category[] = ['Mugs', 'Posters', 'Notebooks', 'Paper goods', 'Totes', 'Puzzles', 'Accessories'];
+
+export const money = (value: number) => `${value.toLocaleString('fr-DZ')} DA`;

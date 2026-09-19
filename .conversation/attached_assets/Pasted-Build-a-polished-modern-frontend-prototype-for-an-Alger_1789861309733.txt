@@ -1,0 +1,919 @@
+Build a polished, modern frontend prototype for an Algerian online gift and lifestyle store called:
+
+SHOP AT SALLY'S
+
+The store is based in Algeria and sells artistic lifestyle products inspired by Van Gogh paintings.
+
+IMPORTANT:
+This is a FRONTEND PROTOTYPE.
+Focus on creating a beautiful, realistic, fully navigable ecommerce experience using mock data.
+
+Do NOT build a backend yet.
+Do NOT connect Supabase yet.
+Use local/mock product data for now.
+
+The main goal is to create a strong visual identity where mugs, posters, notebooks, bookmarks, mini puzzles, tote bags, stationery, and other products all feel like they belong to ONE art collection inspired by Van Gogh paintings.
+
+==================================================
+BRAND
+==================================================
+
+Brand name:
+Shop at Sally's
+
+Business:
+Online artistic gift and stationery store in Algeria
+
+Target market:
+People in Algeria who love:
+- art
+- stationery
+- books
+- gifts
+- home decor
+- cute collectible products
+- Van Gogh paintings
+
+Products:
+- mugs
+- posters
+- notebooks
+- bookmarks
+- mini puzzles
+- tote bags
+- postcards
+- stickers
+- stationery
+- art prints
+- small gift items
+- other artistic merchandise
+
+Currency:
+Algerian Dinar (DA / DZD)
+
+Never use USD or EUR.
+
+The store should feel like:
+an elegant museum gift shop mixed with a cozy creative boutique.
+
+==================================================
+CORE VISUAL CONCEPT
+==================================================
+
+The entire store should feel like one cohesive Van Gogh-inspired universe.
+
+The products should NOT look like unrelated ecommerce products.
+
+Instead, organize products visually around artwork/collections.
+
+Examples:
+
+Starry Night Collection
+- mugs
+- tote bags
+- notebooks
+- bookmarks
+- mini puzzles
+- posters
+
+Sunflowers Collection
+- mugs
+- notebooks
+- postcards
+- tote bags
+
+Irises Collection
+- posters
+- notebooks
+- bookmarks
+- puzzles
+
+Wheatfield Collection
+- tote bags
+- posters
+- stationery
+
+The painting/collection is the visual source, while the products are different ways of owning that artwork.
+
+==================================================
+COLOR PALETTE
+==================================================
+
+Use this exact palette consistently.
+
+MIDNIGHT BLUE:
+#1F3A5F
+
+COBALT BLUE:
+#28558C
+
+STARRY BLUE:
+#3F78A8
+
+SUNFLOWER YELLOW:
+#F2C84B
+
+GOLDEN OCHRE:
+#D99A2B
+
+OLIVE GREEN:
+#6F7F3F
+
+SAGE GREEN:
+#A6AE72
+
+CANVAS CREAM:
+#F6EBD5
+
+WARM LINEN:
+#E8D8B8
+
+INK BROWN:
+#46372A
+
+Optional very subtle accent:
+#5B426B
+
+Primary background:
+#F6EBD5
+
+Primary dark color:
+#1F3A5F
+
+Primary CTA:
+#D99A2B
+
+Secondary accent:
+#6F7F3F
+
+Main text:
+#46372A
+
+Cards should generally use:
+#FFF8EA
+
+Do not use:
+- neon colors
+- generic ecommerce blue
+- excessive gradients
+- futuristic/glassmorphism-heavy design
+- excessive purple
+- black-heavy UI
+
+==================================================
+DESIGN LANGUAGE
+==================================================
+
+The website should feel:
+
+- artistic
+- warm
+- elegant
+- playful
+- creative
+- curated
+- slightly vintage
+- modern
+- premium but accessible
+
+Visual inspiration:
+museum shop
++
+independent art boutique
++
+creative stationery store
+
+Use:
+- editorial typography
+- elegant serif headings
+- clean sans-serif body text
+- warm paper-like backgrounds
+- subtle texture
+- tasteful borders
+- soft shadows
+- artistic composition
+- slightly irregular decorative shapes inspired by brush strokes
+- subtle animation
+- generous whitespace
+
+Do NOT make the website look like a generic Shopify template.
+
+==================================================
+HEADER
+==================================================
+
+Create a beautiful responsive header.
+
+Left:
+SHOP AT SALLY'S
+
+Use a refined wordmark.
+
+Navigation:
+
+Home
+Shop
+Collections
+About
+Contact
+
+Right:
+Search
+Wishlist
+Cart
+Account
+
+Desktop:
+full navigation
+
+Mobile:
+logo
+search
+cart
+hamburger menu
+
+Header should feel elegant and lightweight.
+
+==================================================
+HOME PAGE
+==================================================
+
+Create a strong visual homepage.
+
+--------------------------------------------------
+HERO
+--------------------------------------------------
+
+Large artistic hero section.
+
+Headline:
+
+"Art you can carry, wear, use and keep."
+
+Alternative supporting text:
+
+"Discover everyday objects inspired by timeless Van Gogh masterpieces."
+
+CTA:
+
+"Shop the Collection"
+
+Secondary CTA:
+
+"Explore Artwork"
+
+The hero should visually combine:
+- a large artwork-inspired composition
+- several product mockups
+- notebook
+- mug
+- tote bag
+- poster
+- bookmark
+
+Use an artistic layout rather than a traditional ecommerce banner.
+
+The hero should immediately communicate:
+
+Van Gogh-inspired art × everyday objects.
+
+--------------------------------------------------
+FEATURED COLLECTION
+--------------------------------------------------
+
+Section title:
+
+"Step into the paintings"
+
+Create large collection cards:
+
+Starry Night
+Sunflowers
+Irises
+Wheatfield
+Almond Blossoms
+
+Each collection card should have:
+- artwork visual
+- collection name
+- short description
+- "Explore collection"
+
+--------------------------------------------------
+BESTSELLERS
+--------------------------------------------------
+
+Section title:
+
+"Little pieces of art for every day"
+
+Display products such as:
+
+Starry Night Mug
+Sunflowers Notebook
+Irises Bookmark Set
+Wheatfield Tote Bag
+Starry Night Mini Puzzle
+Van Gogh Art Print
+
+Each product card:
+
+- product image
+- product name
+- collection
+- price in DA
+- wishlist heart
+- add to cart
+- quick view
+
+--------------------------------------------------
+SHOP BY PRODUCT
+--------------------------------------------------
+
+Create categories:
+
+Mugs
+Posters
+Notebooks
+Bookmarks
+Mini Puzzles
+Tote Bags
+Postcards
+Stickers
+Stationery
+Gift Ideas
+
+Use visually interesting category tiles.
+
+--------------------------------------------------
+ARTWORK / STORY SECTION
+--------------------------------------------------
+
+Create an editorial section explaining the concept.
+
+Example:
+
+"From painting to everyday life."
+
+Text:
+
+"Shop at Sally's transforms beloved artworks into little pieces of everyday joy. From a morning coffee beside Starry Night to a notebook filled with your next idea, each collection brings art a little closer."
+
+Use a large artwork-inspired visual beside the text.
+
+--------------------------------------------------
+GIFT SECTION
+--------------------------------------------------
+
+Create:
+
+"Looking for a little something?"
+
+Show gift-oriented products.
+
+Categories:
+- gifts under 1500 DA
+- gifts under 2500 DA
+- gifts for book lovers
+- gifts for art lovers
+- cute desk essentials
+
+--------------------------------------------------
+DELIVERY / PAYMENT INFO
+--------------------------------------------------
+
+Because this is an Algerian store, clearly communicate:
+
+🇩🇿 Delivery across Algeria
+
+💰 Payment on delivery / hand-to-hand payment
+
+🚚 Estimated delivery:
+7–10 days
+
+Use Algerian Dinar pricing.
+
+Create a clean trust-information section.
+
+==================================================
+SHOP PAGE
+==================================================
+
+Create a full ecommerce catalog.
+
+Page title:
+
+"Shop everything"
+
+Search bar
+
+Filters:
+
+Product type:
+- Mugs
+- Posters
+- Notebooks
+- Bookmarks
+- Mini Puzzles
+- Tote Bags
+- Postcards
+- Stickers
+- Stationery
+
+Collection:
+- Starry Night
+- Sunflowers
+- Irises
+- Wheatfield
+- Almond Blossoms
+
+Price:
+- Under 1000 DA
+- 1000–2000 DA
+- 2000–3000 DA
+- 3000+ DA
+
+Sort:
+- Featured
+- Newest
+- Price low to high
+- Price high to low
+- Popular
+
+Grid:
+Desktop: 4 columns
+Tablet: 3 columns
+Mobile: 2 columns
+
+==================================================
+PRODUCT CARDS
+==================================================
+
+Product card should include:
+
+- large product image
+- wishlist button
+- product name
+- collection
+- product type
+- price
+- optional old price
+- small badge such as:
+  New
+  Best Seller
+  Limited
+  Gift Pick
+
+CTA:
+"Add to cart"
+
+Hover state:
+- subtle image zoom
+- quick action buttons
+- elegant shadow
+
+Keep animation subtle.
+
+==================================================
+PRODUCT DETAIL PAGE
+==================================================
+
+Clicking a product opens a detailed product page.
+
+Include:
+
+large product imagery
+
+product name
+
+collection
+
+price in DA
+
+description
+
+available colors/variants if appropriate
+
+quantity selector
+
+Add to cart
+
+Wishlist
+
+Product information
+
+Material / size if relevant
+
+Delivery information
+
+Payment information
+
+Example:
+
+"Delivery across Algeria"
+"Estimated delivery: 7–10 days"
+"Payment on delivery"
+
+Related products:
+
+"You may also like"
+
+and:
+
+"From the same collection"
+
+==================================================
+COLLECTION PAGE
+==================================================
+
+Create dedicated artwork collection pages.
+
+Example:
+
+STARry NIGHT COLLECTION
+
+Hero:
+Starry Night artwork-inspired presentation
+
+Description:
+
+"Deep blue skies, swirling stars and a little bit of magic."
+
+Then show all products inspired by this artwork.
+
+Do the same structure for:
+
+Sunflowers
+Irises
+Wheatfield
+Almond Blossoms
+
+Each collection should have its own visual atmosphere while still respecting the overall brand palette.
+
+==================================================
+SEARCH
+==================================================
+
+Create functional frontend search.
+
+Search by:
+- product name
+- collection
+- category
+
+Show:
+- number of results
+- product grid
+- empty state
+
+Empty message:
+
+"Nothing found."
+
+"Try another product, collection or keyword."
+
+==================================================
+CART
+==================================================
+
+Create a functional shopping cart using frontend state.
+
+Display:
+- product image
+- name
+- price
+- quantity
+- subtotal
+- remove
+
+Show:
+Subtotal
+Delivery
+Total
+
+CTA:
+"Continue to checkout"
+
+==================================================
+CHECKOUT
+==================================================
+
+Create a prototype checkout flow.
+
+Fields:
+
+Full name
+Phone number
+Wilaya
+Commune
+Address
+Optional notes
+
+Payment:
+
+"Payment on delivery"
+
+Information:
+
+"Your order will be confirmed by our team before delivery."
+
+Delivery:
+
+"Estimated delivery: 7–10 days."
+
+Order summary:
+
+Products
+Quantity
+Subtotal
+Delivery
+Total
+
+CTA:
+
+"Place order"
+
+After order:
+
+"Order received!"
+
+"Thank you for shopping with Sally's. We'll contact you to confirm your order."
+
+Do not implement card payments.
+
+==================================================
+WISHLIST
+==================================================
+
+Create a wishlist page.
+
+Users can:
+
+- save products
+- remove products
+- add to cart
+
+Use frontend state.
+
+==================================================
+ACCOUNT
+==================================================
+
+Create a polished account page prototype.
+
+Sections:
+
+Profile
+My Orders
+Wishlist
+Saved information
+
+Use mock user information.
+
+==================================================
+ORDERS
+==================================================
+
+Create mock order history.
+
+Each order contains:
+
+Order number
+Date
+Products
+Total
+Status
+
+Statuses:
+
+Order received
+Confirmed
+Preparing
+Out for delivery
+Delivered
+
+==================================================
+ABOUT PAGE
+==================================================
+
+Create an editorial About page.
+
+Title:
+
+"Art belongs in everyday life."
+
+Explain the idea behind Shop at Sally's.
+
+Mention:
+- Algerian store
+- artistic merchandise
+- Van Gogh-inspired collections
+- stationery
+- gifts
+- everyday objects
+
+Make this page visually rich.
+
+==================================================
+CONTACT PAGE
+==================================================
+
+Include:
+
+Contact form
+
+Name
+Email
+Phone
+Message
+
+Also show:
+
+Instagram
+Location in Algeria
+Phone placeholder
+Email placeholder
+
+Keep it visually consistent with the rest of the website.
+
+==================================================
+SOCIAL / INSTAGRAM SECTION
+==================================================
+
+Include a section inspired by a creative Instagram feed.
+
+Title:
+
+"See art through Sally's eyes."
+
+Use a grid of:
+- products
+- paintings
+- notebooks
+- desk setups
+- mugs
+- tote bags
+- packaging
+
+Placeholder handle:
+
+@shopatsallys
+
+No actual Instagram API required.
+
+==================================================
+MOCK PRODUCTS
+==================================================
+
+Create at least 30 realistic mock products.
+
+Mix:
+
+Mugs
+Posters
+Notebooks
+Bookmarks
+Mini puzzles
+Tote bags
+Postcards
+Stickers
+Art prints
+Stationery
+
+Each product should include:
+
+id
+name
+description
+price
+category
+collection
+image
+featured
+new
+bestSeller
+
+Use prices in DA.
+
+Example:
+
+Starry Night Mug — 1800 DA
+Sunflowers Notebook — 1400 DA
+Irises Bookmark Set — 700 DA
+Wheatfield Tote Bag — 2300 DA
+Starry Night Mini Puzzle — 1600 DA
+Sunflowers Art Print — 2200 DA
+
+Use believable Algerian pricing.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+The website must be excellent on:
+
+desktop
+laptop
+tablet
+mobile
+
+Mobile must have:
+- hamburger navigation
+- touch-friendly buttons
+- 2-column product grids
+- mobile filters
+- sticky cart/accessibility where appropriate
+- readable typography
+- comfortable spacing
+
+Do not simply shrink the desktop design.
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use subtle animations:
+
+- page transitions
+- product hover
+- image zoom
+- wishlist toggle
+- add-to-cart toast
+- navigation transitions
+- collection transitions
+
+Avoid excessive animation.
+
+==================================================
+TECHNICAL STRUCTURE
+==================================================
+
+Use:
+
+React
+TypeScript
+Vite
+Tailwind CSS
+
+Use reusable components.
+
+Create reusable:
+- Header
+- Footer
+- ProductCard
+- CollectionCard
+- FilterBar
+- Search
+- Cart
+- Wishlist
+- ProductGallery
+- ProductInfo
+- QuantitySelector
+- Toast notifications
+- Responsive navigation
+
+Keep mock data centralized.
+
+Keep the code clean and modular.
+
+==================================================
+VERY IMPORTANT VISUAL REQUIREMENT
+==================================================
+
+The website should NOT feel like:
+
+"random products with Van Gogh pictures on them."
+
+It should feel like:
+
+"one curated art universe where every product is part of a painting-inspired collection."
+
+The artwork should influence:
+- product imagery
+- color accents
+- collection pages
+- typography
+- decorative elements
+- storytelling
+
+The user should immediately understand that the products all belong to one artistic brand.
+
+==================================================
+FINAL DESIGN GOAL
+==================================================
+
+Make Shop at Sally's feel like:
+
+A small creative museum shop in Algeria
++
+an elegant stationery boutique
++
+a cozy gift store
++
+a modern ecommerce website.
+
+The result should be visually impressive enough to present as a real ecommerce brand.
+
+Build the complete frontend prototype now.
+Do not ask me to design each page separately.
+Create the design system, pages, components, mock data, interactions and responsive layouts as one coherent experience.
